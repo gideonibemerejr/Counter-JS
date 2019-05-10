@@ -6,6 +6,7 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
+  font-family: Helvetica, sans-serif;
 }
 main {
   display: grid;
@@ -25,24 +26,33 @@ button {
 
   text-align: center;
   line-height: 1em;
+  width: 100px;
+  height: 100px;
 
-  width: 60px;
-  height: 60px;
+  color: white;
+  background-color: #999;
+}
+button:hover {
+  color: #999;
+  background-color: white;
 }
 
 input {
   margin: 0;
 
-  width: 100px;
-  height: 60px;
+  width: 140px;
+  height: 100px;
   text-align: center;
 }
 
 input,
 button {
-  font-size: 4vmin;
+  font-size: 5vmin;
   font-weight: 700;
+  border: solid 5px #999;
+  border-radius: 10px;
 }
+
 h1 {
-  font-size: 10vmin;
+  font-size: 16vmin;
 }
